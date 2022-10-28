@@ -1,0 +1,82 @@
+/*Общие стили */
+body {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.wrap
+{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.wrap1
+{
+  flex: 1;
+}
+/* Стили хедера */
+header {
+  background: pink;
+display: flex;
+justify-content: space-between;
+height: 50px;
+align-items: center;
+}
+/* стили панели навигации */
+.main-menu {
+  background: skyblue;
+
+}
+
+.main-menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 50px ;
+    align-items: center;
+}
+.content{
+  display: flex;
+}
+/* стили контента */
+section {
+  background: orange;
+  flex: 5;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-item {
+    background: peachpuff;
+    padding: 10px;
+  margin: 15px;
+  width: calc(50% - 30px);
+  box-sizing: border-box;
+  
+}
+/* Стили сайдбара */
+.sidebar-right {
+  background: green;
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* Стили футера */
+footer {
+  background: plum;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

@@ -1,0 +1,150 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: auto;
+    margin: 0 ;
+    
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.underline{
+    text-decoration:underline;  
+}
+.topMenu1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Прижимаем по левому краю*/  
+    height: 67px; 
+}
+.black-text{ color:#424242 ;} /* Черный текст */
+.text-size1{font-size: 14px;} /* Размер шрифта 14 */
+.text-size2{font-size: 16px;} /* Размер шрифта 16 */
+.logo{ 
+    width: 159px;
+    height: 26px;
+}/* Логотип Рубль банк */
+.topMenuLeft {
+    /* justify-content: flex-start; */
+
+}
+.topMenuRight{
+   
+}
+.BlueText{
+    color: #3A95FF;
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight:bold;   
+}
+.topMenu2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Прижимаем по левому краю*/
+   
+} 
+.bannerBackground{
+    display:flex;
+    justify-content: space-between;  
+}
+.wrap1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text-size3{
+    font-size: 52px;
+    width: 427px ;
+    Height: 114px;
+    font-weight:bold
+    }
+.buttons{
+    display: flex;
+    justify-content: space-between;    
+    }
+.buttun-prop{
+    width: 200px;
+    height: 55px;   
+    border-radius: 3px;
+    display: flex;
+    text-align:center;
+    box-sizing: border-box;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.takeCredit
+{
+    background:  #3A95FF;
+    color: #fff;
+    text-align:center;
+    font-weight:bold;
+} /* кнопка получить кредит */
+.buttun2{
+    border: 1px solid #3A95FF;
+    background: #fff;
+    color: #3A95FF;
+    
+}
+.heading{
+    font-size: 40px;
+    font-weight:bold;
+}
+.bestOffer{
+    margin: 70px 0px 13px 0px;
+    color: black;
+}
+.text-size4{
+    font-size: 20px; 
+    font-weight:normal;
+    width: 482px;
+}
+.block{
+    background: #EFF2F5;
+    width: 555px;
+    height: 300px;
+    border-radius: 8px;
+    margin: 31px 15px 31px 15px;
+    width: calc(50% - 30px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.wrap-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 7;
+    flex-wrap: wrap;;
+}
+.textstyle1{
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 25px;
+}
+.textstyle2{
+    font-size: 18px;
+    margin: 0px 0px 0px 25px;
+}
+
+.block img{
+    Width: 262px;
+    Height: 300px;
+}
+.block-wrap1 {
+    display: flex;
+    
+}
+
+
+
